@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "ProteinStructure.html",
+    "href": "ProteinStructure.html",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "",
+    "text": "Protein Database Usage (AlphaFold, UniProt, ProSite)\n3D Structure Visualization (PyMol)\nGenome Sequencing (SnapGene Viewer)\nScientific Communication"
+  },
+  {
+    "objectID": "ProteinStructure.html#skills-demonstrated",
+    "href": "ProteinStructure.html#skills-demonstrated",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "",
+    "text": "Protein Database Usage (AlphaFold, UniProt, ProSite)\n3D Structure Visualization (PyMol)\nGenome Sequencing (SnapGene Viewer)\nScientific Communication"
+  },
+  {
+    "objectID": "ProteinStructure.html#background",
+    "href": "ProteinStructure.html#background",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "Background:",
+    "text": "Background:\nI worked on this project independently to deepen my understanding of bioinformatics tools and their application in analyzing the structure of a protein from its genes’ sequences, and how this structure can play a role in its overall function. I aimed to learn how to these tools can work together to draw meaningful conclusions on a specific protein.\nI examined the Amyloid Beta Precursor Like Protein 1 (APLP1), which is similar to the Amyloid Beta A4 Precursor (APP)."
+  },
+  {
+    "objectID": "ProteinStructure.html#importance-of-examining-this-protein",
+    "href": "ProteinStructure.html#importance-of-examining-this-protein",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "Importance of Examining this Protein:",
+    "text": "Importance of Examining this Protein:\nAPLP1 has many functions, such as modulating glucose and insulin homeostasis, but its primary effect on the human body is liberating a cytoplasmic fragment when the protein is cleaved by secretases. This cytoplasmic fragment acts as transcriptional activator, which will play a role in synaptic maturation during cortical development. Overall, synaptic maturation can lead to the accumulation of amyloid beta peptides in the brain, which in turn can contribute to Alzheimer’s pathology.\nMy primary goal with examining APLP1 specifically was to see if its 3D structure has any functional sites that can contribute to its role in synaptic maturation."
+  },
+  {
+    "objectID": "ProteinStructure.html#steps-in-my-analysis",
+    "href": "ProteinStructure.html#steps-in-my-analysis",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "Steps in my Analysis:",
+    "text": "Steps in my Analysis:\n\nCollecting the Amino Acid Sequence of APLP1\nPredicting the 3D Structure of the Protein\nExamining the Specific Functional Sites in the Different Domains of the Protein\nLooking at the Effects of these Functional Sites and Drawing Conclusions"
+  },
+  {
+    "objectID": "ProteinStructure.html#amino-acid-3d-structure",
+    "href": "ProteinStructure.html#amino-acid-3d-structure",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "Amino Acid –> 3D Structure",
+    "text": "Amino Acid –&gt; 3D Structure\nI used the protein database UniProt to find the amino acid sequence for APLP1, and viewed the sequence on the genome sequencing tool, SnapGeneViewer.\n\nAmino Acid Sequence of APLP1\nAfter this, I uploaded this sequence onto AlphaFold, an AI program used to visualize the 3D structure of amino acid sequences.\n\n3D Structure of full APLP1 protein\nThis gave me the tertiary structure, which consisted of accumulations of alpha helices and beta pleated sheets like most proteins. However, I noticed there were two specific areas which had more accumulations. One of these areas primarily had alpha helices dimers, while another one had a mix of alpha helices and beta pleated sheets."
+  },
+  {
+    "objectID": "ProteinStructure.html#scanning-for-functional-sites-in-prosite",
+    "href": "ProteinStructure.html#scanning-for-functional-sites-in-prosite",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "Scanning for Functional Sites in ProSite:",
+    "text": "Scanning for Functional Sites in ProSite:\nAfter the first look at the 3D structure, I wanted to examine the two domains I saw with more accumulated secondary structures, so I used the protein scanning database, ProSite, to find out if there were sites in these domains that were extra crucial to the function of APLP1.\n\nProSite Scan of APLP1 Functional Sites\nMy predictions were correct, as there were two different domains, APP_E1 (E1) and APP_E2 (E2).\nPrevious research states that the E1 domain is a region of alpha helices and beta sheet dimers, and is a growth factor like domain, so it can promote neurite outgrowth.\nThe E2 domain is rich in alpha helices and has metal binding sites to make sure that the domain is in rigid conformation. It is also primarily involved in cell-cell interactions.\nAlthough there were no active sites that allowed ligand binding, the E1 domain had several disulfide bridges, which helps stabilize the protein structure.\nIn order to find the functional sites that ProSite did not scan for, I used a molecular visualization tool called PyMol. PyMol could also potentially tell us why there were disulfide bridges in the E1 domain instead of the E2."
+  },
+  {
+    "objectID": "ProteinStructure.html#closer-examination-of-functional-sites-in-pymol",
+    "href": "ProteinStructure.html#closer-examination-of-functional-sites-in-pymol",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "Closer Examination of Functional Sites in PyMol",
+    "text": "Closer Examination of Functional Sites in PyMol\nAfter scanning the 3D Structure on ProSite, I used InterPro to visualize the specific domains on PyMol.\n\nE1 Domain\n\nE2 Domain\nFrom these images, I was able to tell that the E1 domain was the area in the protein with the accumulation of both alpha helices and beta pleated sheets, while the E2 domain was the area with numerous alpha helices dimers.\nIn order to look at more functional sites in these domains, I examined the amino acid sequence on PyMol, and found ACT and GOL sites on the domains.\n\nE1 and E2 Domain with ACT Functional Site\nThe visual above shows the functional site, ACT, on both the E1 and E2 domains. ACT stands for acetate ion, and is a key ligand for cell adhesion receptors to bind to, which can create an interaction between different cells.\n\nE1 Domain with GOL Functional Site\nThis second visual shows the functional site, GOL, on the E1 domain. GOL stands for glycerol, and its primary function is to provide structural stability, which will help maintain E1’s rigid conformation."
+  },
+  {
+    "objectID": "ProteinStructure.html#connection-between-the-functional-sites-and-aplp1s-function",
+    "href": "ProteinStructure.html#connection-between-the-functional-sites-and-aplp1s-function",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "Connection between the Functional Sites and APLP1’s function",
+    "text": "Connection between the Functional Sites and APLP1’s function\nThe GOL site being in the E1 domain makes sense because glycerol will be able to form hydrogen bonds with more alpha helices, so that cell adhesion can occur more quickly and the conformation is more rigid.\nGlycerol is also found in many growth factor solutions, so the E1 being a growth factor domain could be largely attributed to the GOL site.\nThe ACT site’s role in the E2 domain could be help create interactions between cells, because it is a binding site for the cell adhesion receptors.\nHowever, it’s role in the E1 domain could be with neurite outgrowth, as it can help cells bind to the extracellular matrix and promote its growth factor regions."
+  },
+  {
+    "objectID": "ProteinStructure.html#overall-conclusions",
+    "href": "ProteinStructure.html#overall-conclusions",
+    "title": "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein",
+    "section": "Overall Conclusions",
+    "text": "Overall Conclusions\n\nGlycerol and acetate ions are the primary functional sites in the APLP1 protein.\nThey play large roles in cells with APLP1 because it helps with cell adhesion, cell-cell interactions, and outgrowth.\nThe E1 domain of APLP1 is implicated in neurite outgrowth, which can lead to amyloid-beta buildup, which is potentially associated with Alzheimer’s."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Keerthy Rangan’s Portfolio",
+    "section": "",
+    "text": "Hello! My name is Keerthy Rangan, a third-year student at Emory University majoring in Quantitative Sciences with a Biology concentration."
+  },
+  {
+    "objectID": "index.html#about-this-website",
+    "href": "index.html#about-this-website",
+    "title": "Keerthy Rangan’s Portfolio",
+    "section": "About this Website",
+    "text": "About this Website\nThis website showcases a selection of personal and academic projects I’ve developed during my time in college. These projects demonstrate my skills in data science and bioinformatics, providing a glimpse into my work and capabilities."
+  },
+  {
+    "objectID": "index.html#my-career-interestsgoals",
+    "href": "index.html#my-career-interestsgoals",
+    "title": "Keerthy Rangan’s Portfolio",
+    "section": "My Career Interests/Goals",
+    "text": "My Career Interests/Goals\nI am passionate about pursuing a career in bioinformatics or data science after graduation, and aspire to attend graduate school in computational biology or translational medicine.\nThroughout my time at college, I have developed strong skills in data analytics, including data wrangling, querying, web scraping, visualization, and dashboard creation.\nI primarily work with Python, R, and SQL, and dedicated much of my second year to refining these technical skills.\nIn addition, I have extensive research experience in biotechnology and cancer biology, having presented findings at symposia. I have also developed essential laboratory techniques such as recombinant plasmid creation and cell culturing. These experiences have deepened my understanding and appreciation for how innovative therapies are developed in medicine.\nMy overall aim in my career going forward is to contribute to medicine by utilizing data-driven approaches that not only could be useful when developing therapies in a biological research setting, but also can address complex questions in biology."
+  },
+  {
+    "objectID": "CDCProject.html",
+    "href": "CDCProject.html",
+    "title": "Analyzing & Comparing Water Sanitation and Hygiene (WASH) Access in Refugee Camps and Non-Refugee Regions in Tanzania",
+    "section": "",
+    "text": "Python Data Cleaning(Pandas)\nPython Data Visualization (Plotly)\nData Collection\nScientific Communication"
+  },
+  {
+    "objectID": "CDCProject.html#skills-demonstrated",
+    "href": "CDCProject.html#skills-demonstrated",
+    "title": "Analyzing & Comparing Water Sanitation and Hygiene (WASH) Access in Refugee Camps and Non-Refugee Regions in Tanzania",
+    "section": "",
+    "text": "Python Data Cleaning(Pandas)\nPython Data Visualization (Plotly)\nData Collection\nScientific Communication"
+  },
+  {
+    "objectID": "CDCProject.html#background",
+    "href": "CDCProject.html#background",
+    "title": "Analyzing & Comparing Water Sanitation and Hygiene (WASH) Access in Refugee Camps and Non-Refugee Regions in Tanzania",
+    "section": "Background:",
+    "text": "Background:\nI worked on this project as a part of the Emory Data Science Club’s project teams, in which we examined water and sanitation access in refugee vs non refugee communities in sub-saharan African countries.\nMy contribution involved examining sanitation access in Tanzania, comparing two refugee communities to urban regions. Additionally, I explored trends in water access/water hygiene, which was not included in the final deliverable my team presented at symposia."
+  },
+  {
+    "objectID": "CDCProject.html#analysis-steps",
+    "href": "CDCProject.html#analysis-steps",
+    "title": "Analyzing & Comparing Water Sanitation and Hygiene (WASH) Access in Refugee Camps and Non-Refugee Regions in Tanzania",
+    "section": "Analysis Steps:",
+    "text": "Analysis Steps:\nIn order to analyze the data, I performed the following steps:\n\nData Collection: I collected data on sanitation and water access from data provided by a CDC employee we collaborated with. The data is from two refugee communities and Tanzania overall.\nData Cleaning: I cleaned the data by handling missing values and standardizing the format.\nData Exploration: I explored the data by creating visualizations, and identifying any patterns or trends.\nResults Interpretation: I interpreted the results of the analysis and drew conclusions based on the findings."
+  },
+  {
+    "objectID": "CDCProject.html#visuals",
+    "href": "CDCProject.html#visuals",
+    "title": "Analyzing & Comparing Water Sanitation and Hygiene (WASH) Access in Refugee Camps and Non-Refugee Regions in Tanzania",
+    "section": "Visuals:",
+    "text": "Visuals:\nSanitation Access:\n - This bar chart highlights the presence of hand soap in households across refugee and urban communities in Tanzania. - Urban households demonstrated 10-20% higher soap availability compared to refugee households, suggesting better overall hygiene access in urban areas.\nWater Access:  - This visualization showcases primary sources of non-drinking water in Tanzanian urban areas - Approximately 25% of urban area households rely on alternative water sources, which dominate as the most commonly used non-public options.\n - This visual shows whether people in refugee communities wash their hands more by dipping them into a bowl of water, or by using running water, which is the less sanitary way. - Around 20% more individuals prefer the cleaner method of dipping hands into water"
+  },
+  {
+    "objectID": "CDCProject.html#overall-conclusions",
+    "href": "CDCProject.html#overall-conclusions",
+    "title": "Analyzing & Comparing Water Sanitation and Hygiene (WASH) Access in Refugee Camps and Non-Refugee Regions in Tanzania",
+    "section": "Overall Conclusions:",
+    "text": "Overall Conclusions:\n\nUrban households in northern Tanzania report 10-20% greater availability of hand soap compared to refugee communities, demonstrating a gap in hygiene resource access.\nUrban households predominantly rely on non-public water sources for non-drinking purposes. Our next steps would be to identify these alternative sources and evaluate their quality.\nRefugee communities demonstrate hygienic handwashing behaviors, with a slight preference for dipping hands into water, a cleaner method compared to using running water in this context."
+  }
+]
