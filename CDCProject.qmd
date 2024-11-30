@@ -1,0 +1,59 @@
+---
+title: "Analyzing & Comparing Water Sanitation and Hygiene (WASH) Access in Refugee Camps and Non-Refugee Regions in Tanzania"
+author: "Keerthy Rangan"
+format:
+  html:
+    other-links:
+      - text: GitHub Repository for Project
+        href: https://github.com/keerthyr-maker/CDCProjects
+---
+
+## Skills Demonstrated:
+
+1. Python Data Cleaning(Pandas)
+2. Python Data Visualization (Plotly)
+3. Data Collection
+4. Scientific Communication
+
+## Background: 
+
+I worked on this project as a part of the Emory Data Science Club's project teams, in which we examined water and sanitation access in refugee vs non refugee communities in sub-saharan African countries.
+
+My contribution involved examining sanitation access in Tanzania, comparing two refugee communities to urban regions. Additionally, I explored trends in water access/water hygiene, which was not included in the final deliverable my team presented at symposia.
+
+## Analysis Steps:
+In order to analyze the data, I performed the following steps:
+
+1. Data Collection: I collected data on sanitation and water access from data provided by a CDC employee we collaborated with. The data is from two refugee communities and Tanzania overall. 
+
+2. Data Cleaning: I cleaned the data by handling missing values and standardizing the format.
+
+3. Data Exploration: I explored the data by creating visualizations, and identifying any patterns or trends.
+
+4. Results Interpretation: I interpreted the results of the analysis and drew conclusions based on the findings.
+
+## Visuals:
+
+Sanitation Access:
+
+![](PresenceofSoapBarChart.png)
+- This bar chart highlights the presence of hand soap in households across refugee and urban communities in Tanzania.
+- Urban households demonstrated 10-20% higher soap availability compared to refugee households, suggesting better overall hygiene access in urban areas.
+
+Water Access:
+![](WaterSources.png)
+- This visualization showcases primary sources of non-drinking water in Tanzanian urban areas
+- Approximately 25% of urban area households rely on alternative water sources, which dominate as the most commonly used non-public options.
+
+
+![](HandWashMethods.png)
+- This visual shows whether people in refugee communities wash their hands more by dipping them into a bowl of water, or by using running water, which is the less sanitary way. 
+- Around 20% more individuals prefer the cleaner method of dipping hands into water
+
+## Overall Conclusions:
+- Urban households in northern Tanzania report 10-20% greater availability of hand soap compared to refugee communities, demonstrating a gap in hygiene resource access.
+
+- Urban households predominantly rely on non-public water sources for non-drinking purposes. Our next steps would be to identify these alternative sources and evaluate their quality.
+
+- Refugee communities demonstrate hygienic handwashing behaviors, with a slight preference for dipping hands into water, a cleaner method compared to using running water in this context.
+---

@@ -1,0 +1,20 @@
+---
+title: "Keerthy Rangan's Portfolio"
+author: "Keerthy Rangan"
+---
+Hello! My name is Keerthy Rangan, a third-year student at Emory University majoring in Quantitative Sciences with a Biology concentration.
+
+## About this Website
+This website showcases a selection of personal and academic projects I’ve developed during my time in college. These projects demonstrate my skills in data science and bioinformatics, providing a glimpse into my work and capabilities.
+
+## My Career Interests/Goals
+I am passionate about pursuing a career in bioinformatics or data science after graduation, and aspire to attend graduate school in computational biology or translational medicine.
+
+Throughout my time at college, I have developed strong skills in data analytics, including data wrangling, querying, web scraping, visualization, and dashboard creation.
+
+I primarily work with **Python**, **R**, and **SQL**, and dedicated much of my second year to refining these technical skills.
+
+In addition, I have extensive research experience in biotechnology and cancer biology, having presented findings at symposia. I have also developed essential laboratory techniques such as recombinant plasmid creation and cell culturing. These experiences have deepened my understanding and appreciation for how innovative therapies are developed in medicine.
+
+My overall aim in my career going forward is to contribute to medicine by utilizing data-driven approaches that not only could be useful when developing therapies in a biological research setting, but also can address complex questions in biology.
+

@@ -1,0 +1,113 @@
+---
+title: "Examining Functional Sites on the 3D Structure of an Amyloid Precursor Protein"
+author: "Keerthy Rangan"
+---
+
+## Skills Demonstrated:
+1. Protein Database Usage (AlphaFold, UniProt, ProSite)
+2. 3D Structure Visualization (PyMol)
+3. Genome Sequencing (SnapGene Viewer)
+4. Scientific Communication
+
+## Background: 
+
+I worked on this project independently to deepen my understanding of bioinformatics tools and their application in analyzing the structure of a protein from its genes' sequences, and how this structure can play a role in its overall function. I aimed to learn how to these tools can work together to draw meaningful conclusions on a specific protein.
+
+I examined the Amyloid Beta Precursor Like Protein 1 (APLP1), which is similar to the Amyloid Beta A4 Precursor (APP). 
+
+## Importance of Examining this Protein: 
+
+APLP1 has many functions, such as modulating glucose and insulin homeostasis, but its primary effect on the human body is liberating a cytoplasmic fragment when the protein is cleaved by secretases. This cytoplasmic fragment acts as transcriptional activator, which will play a role in synaptic maturation during cortical development. Overall, synaptic maturation can lead to the accumulation of amyloid beta peptides in the brain, which in turn can contribute to Alzheimer's pathology. 
+
+My primary goal with examining APLP1 specifically was to see if its 3D structure has any functional sites that can contribute to its role in synaptic maturation. 
+
+## Steps in my Analysis:
+
+1. Collecting the Amino Acid Sequence of APLP1
+
+2. Predicting the 3D Structure of the Protein
+
+3. Examining the Specific Functional Sites in the Different Domains of the Protein
+
+4. Looking at the Effects of these Functional Sites and Drawing Conclusions
+
+
+## Amino Acid --> 3D Structure
+
+I used the protein database UniProt to find the amino acid sequence for APLP1, and viewed the sequence on the genome sequencing tool, SnapGeneViewer. 
+
+![](AminoAcidSequence.png)
+
+Amino Acid Sequence of APLP1
+
+After this, I uploaded this sequence onto AlphaFold, an AI program used to visualize the 3D structure of amino acid sequences.
+
+![](AlphaFoldProtein.png)
+
+3D Structure of full APLP1 protein
+
+This gave me the tertiary structure, which consisted of accumulations of alpha helices and beta pleated sheets like most proteins. However, I noticed there were two specific areas which had more accumulations. One of these areas primarily had alpha helices dimers, while another one had a mix of alpha helices and beta pleated sheets. 
+
+## Scanning for Functional Sites in ProSite:
+
+After the first look at the 3D structure, I wanted to examine the two domains I saw with more accumulated secondary structures, so I used the protein scanning database, ProSite, to find out if there were sites in these domains that were extra crucial to the function of APLP1.
+
+![](PrositeScan.png)
+
+ProSite Scan of APLP1 Functional Sites
+
+My predictions were correct, as there were two different domains, APP_E1 (E1) and APP_E2 (E2). 
+
+Previous research states that the E1 domain is a region of alpha helices and beta sheet dimers, and is a growth factor like domain, so it can promote neurite outgrowth. 
+
+The E2 domain is rich in alpha helices and has metal binding sites to make sure that the domain is in rigid conformation. It is also primarily involved in cell-cell interactions.
+
+Although there were no active sites that allowed ligand binding, the E1 domain had several disulfide bridges, which helps stabilize the protein structure. 
+
+In order to find the functional sites that ProSite did not scan for, I used a molecular visualization tool called PyMol. PyMol could also potentially tell us why there were disulfide bridges in the E1 domain instead of the E2.
+
+## Closer Examination of Functional Sites in PyMol
+
+After scanning the 3D Structure on ProSite, I used InterPro  to visualize the specific domains on PyMol. 
+
+![](E1Domain.png)
+
+E1 Domain
+
+![](E2Domain.png)
+
+E2 Domain
+
+From these images, I was able to tell that the E1 domain was the area in the protein with the accumulation of both alpha helices and beta pleated sheets, while the E2 domain was the area with numerous alpha helices dimers.
+
+In order to look at more functional sites in these domains, I examined the amino acid sequence on PyMol, and found ACT and GOL sites on the domains.
+
+![](E1andE2withACT.png)
+
+E1 and E2 Domain with ACT Functional Site
+
+The visual above shows the functional site, ACT, on both the E1 and E2 domains. ACT stands for acetate ion, and is a key ligand for cell adhesion receptors to bind to, which can create an interaction between different cells. 
+
+![](E1withGOL.png)
+
+E1 Domain with GOL Functional Site
+
+This second visual shows the functional site, GOL, on the E1 domain. GOL stands for glycerol, and its primary function is to provide structural stability, which will help maintain E1's rigid conformation. 
+
+## Connection between the Functional Sites and APLP1's function
+
+The GOL site being in the E1 domain makes sense because glycerol will be able to form hydrogen bonds with more alpha helices, so that cell adhesion can occur more quickly and the conformation is more rigid.
+
+Glycerol is also found in many growth factor solutions, so the E1 being a growth factor domain could be largely attributed to the GOL site. 
+
+The ACT site's role in the E2 domain could be help create interactions between cells, because it is a binding site for the cell adhesion receptors. 
+
+However, it's role in the E1 domain could be with neurite outgrowth, as it can help cells bind to the extracellular matrix and promote its growth factor regions. 
+
+## Overall Conclusions
+
+1. Glycerol and acetate ions are the primary functional sites in the APLP1 protein. 
+
+2. They play large roles in cells with APLP1 because it helps with cell adhesion, cell-cell interactions, and outgrowth.
+
+2. The E1 domain of APLP1 is implicated in neurite outgrowth, which can lead to amyloid-beta buildup, which is potentially associated with Alzheimer's. 
